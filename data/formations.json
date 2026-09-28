@@ -1,0 +1,317 @@
+[
+  {
+    "id": "4-3-3",
+    "name": "4-3-3",
+    "label": "Attacking Width",
+    "description": "A balanced attacking shape with three forwards and a midfield trio. Excellent for possession football and stretching the opposition defence.",
+    "strengths": ["Wide attacking threat", "Midfield control", "High pressing potential"],
+    "weaknesses": ["Exposed full-backs", "Requires disciplined midfield"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "LCM", "x": 28, "y": 52 },
+      { "pos": "CM", "x": 50, "y": 56 },
+      { "pos": "RCM", "x": 72, "y": 52 },
+      { "pos": "LW", "x": 16, "y": 24 },
+      { "pos": "ST", "x": 50, "y": 16 },
+      { "pos": "RW", "x": 84, "y": 24 }
+    ]
+  },
+  {
+    "id": "4-3-3-holding",
+    "name": "4-3-3 Holding",
+    "label": "Balanced Control",
+    "description": "A 4-3-3 variation with a dedicated holding midfielder sitting in front of the back four. Offers security while retaining attacking width.",
+    "strengths": ["Shield for the defence", "Controlled build-up", "Counter-press base"],
+    "weaknesses": ["Can be overrun in midfield", "Dependent on the CDM"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "CDM", "x": 50, "y": 62 },
+      { "pos": "LCM", "x": 28, "y": 46 },
+      { "pos": "RCM", "x": 72, "y": 46 },
+      { "pos": "LW", "x": 16, "y": 24 },
+      { "pos": "ST", "x": 50, "y": 16 },
+      { "pos": "RW", "x": 84, "y": 24 }
+    ]
+  },
+  {
+    "id": "4-2-3-1",
+    "name": "4-2-3-1",
+    "label": "Modern Standard",
+    "description": "One of the most widely used modern shapes. A double pivot protects the defence while a creative number ten links midfield and attack.",
+    "strengths": ["Great central control", "Creative CAM", "Solid double pivot"],
+    "weaknesses": ["Lone striker can be isolated", "Requires hard-working wide players"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "RDM", "x": 36, "y": 60 },
+      { "pos": "LDM", "x": 64, "y": 60 },
+      { "pos": "LW", "x": 16, "y": 36 },
+      { "pos": "CAM", "x": 50, "y": 38 },
+      { "pos": "RW", "x": 84, "y": 36 },
+      { "pos": "ST", "x": 50, "y": 14 }
+    ]
+  },
+  {
+    "id": "4-4-2",
+    "name": "4-4-2",
+    "label": "Classic Balance",
+    "description": "The classic English shape. Two banks of four provide defensive solidity while a strike partnership offers a direct attacking threat.",
+    "strengths": ["Defensively organised", "Two-striker threat", "Easy to learn"],
+    "weaknesses": ["Can be outnumbered in midfield", "Predictable shape"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "LM", "x": 16, "y": 50 },
+      { "pos": "LCM", "x": 38, "y": 54 },
+      { "pos": "RCM", "x": 62, "y": 54 },
+      { "pos": "RM", "x": 84, "y": 50 },
+      { "pos": "LST", "x": 38, "y": 18 },
+      { "pos": "RST", "x": 62, "y": 18 }
+    ]
+  },
+  {
+    "id": "4-4-2-holding",
+    "name": "4-4-2 Holding",
+    "label": "Compact Block",
+    "description": "A conservative 4-4-2 where the wide midfielders tuck in and one striker drops deeper. Ideal for defending leads and counter-attacking.",
+    "strengths": ["Very compact", "Hard to break down", "Direct counters"],
+    "weaknesses": ["Limited width", "Fewer chances created"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 76 },
+      { "pos": "LCB", "x": 36, "y": 80 },
+      { "pos": "RCB", "x": 64, "y": 80 },
+      { "pos": "RB", "x": 84, "y": 76 },
+      { "pos": "LM", "x": 20, "y": 56 },
+      { "pos": "LCM", "x": 40, "y": 58 },
+      { "pos": "RCM", "x": 60, "y": 58 },
+      { "pos": "RM", "x": 80, "y": 56 },
+      { "pos": "LST", "x": 40, "y": 20 },
+      { "pos": "RST", "x": 60, "y": 20 }
+    ]
+  },
+  {
+    "id": "4-1-2-1-2",
+    "name": "4-1-2-1-2",
+    "label": "Narrow Diamond",
+    "description": "A narrow diamond midfield. Excellent central overloads and passing options, though it leaves width to the full-backs.",
+    "strengths": ["Central overloads", "Great passing angles", "Two strikers"],
+    "weaknesses": ["Vulnerable out wide", "Demands huge full-back engines"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "CDM", "x": 50, "y": 62 },
+      { "pos": "LCM", "x": 26, "y": 50 },
+      { "pos": "RCM", "x": 74, "y": 50 },
+      { "pos": "CAM", "x": 50, "y": 38 },
+      { "pos": "LST", "x": 38, "y": 16 },
+      { "pos": "RST", "x": 62, "y": 16 }
+    ]
+  },
+  {
+    "id": "4-2-4",
+    "name": "4-2-4",
+    "label": "Attacking Classic",
+    "description": "A bold attacking shape with four forwards and a two-man midfield. Historically influential in the 1950s-70s, it offers huge attacking threat at the cost of midfield control.",
+    "strengths": ["Four attackers", "Wide threat", "Direct attacking play"],
+    "weaknesses": ["Two-man midfield can be overrun", "Demands disciplined forwards", "Vulnerable to a packed midfield"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "LCM", "x": 36, "y": 54 },
+      { "pos": "RCM", "x": 64, "y": 54 },
+      { "pos": "LM", "x": 14, "y": 28 },
+      { "pos": "LST", "x": 38, "y": 16 },
+      { "pos": "RST", "x": 62, "y": 16 },
+      { "pos": "RM", "x": 86, "y": 28 }
+    ]
+  },
+  {
+    "id": "4-2-2-2",
+    "name": "4-2-2-2",
+    "label": "Brazilian Box",
+    "description": "A box midfield with two defensive and two attacking midfielders. Popular in Brazilian football, it combines control with directness.",
+    "strengths": ["Compact centre", "Two creative tens", "Two strikers"],
+    "weaknesses": ["No natural wingers", "Full-backs must provide width"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "LDM", "x": 38, "y": 58 },
+      { "pos": "RDM", "x": 62, "y": 58 },
+      { "pos": "LAM", "x": 30, "y": 38 },
+      { "pos": "RAM", "x": 70, "y": 38 },
+      { "pos": "LST", "x": 38, "y": 16 },
+      { "pos": "RST", "x": 62, "y": 16 }
+    ]
+  },
+  {
+    "id": "4-3-2-1",
+    "name": "4-3-2-1",
+    "label": "Christmas Tree",
+    "description": "A narrow, layered shape with a midfield three feeding two trequartistas behind a lone striker. Designed for central overloads and technical control.",
+    "strengths": ["Central overloads", "Two creative number tens", "Patient build-up"],
+    "weaknesses": ["No natural width", "Full-backs must cover the flanks", "Lone striker can be isolated"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "LCM", "x": 28, "y": 56 },
+      { "pos": "CDM", "x": 50, "y": 62 },
+      { "pos": "RCM", "x": 72, "y": 56 },
+      { "pos": "LAM", "x": 35, "y": 36 },
+      { "pos": "RAM", "x": 65, "y": 36 },
+      { "pos": "ST", "x": 50, "y": 14 }
+    ]
+  },
+  {
+    "id": "3-5-2",
+    "name": "3-5-2",
+    "label": "Wing-Back System",
+    "description": "Three centre-backs and wing-backs who cover the flanks. A midfield five dominates the centre and supports two strikers.",
+    "strengths": ["Numerical midfield advantage", "Attacking wing-backs", "Strike pair"],
+    "weaknesses": ["Space behind wing-backs", "Requires disciplined back three"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LCB", "x": 30, "y": 78 },
+      { "pos": "CB", "x": 50, "y": 80 },
+      { "pos": "RCB", "x": 70, "y": 78 },
+      { "pos": "LWB", "x": 12, "y": 56 },
+      { "pos": "LCM", "x": 34, "y": 54 },
+      { "pos": "CM", "x": 50, "y": 56 },
+      { "pos": "RCM", "x": 66, "y": 54 },
+      { "pos": "RWB", "x": 88, "y": 56 },
+      { "pos": "LST", "x": 38, "y": 18 },
+      { "pos": "RST", "x": 62, "y": 18 }
+    ]
+  },
+  {
+    "id": "3-4-2-1",
+    "name": "3-4-2-1",
+    "label": "Modern Hybrid",
+    "description": "A back three with a four-man midfield and two inside forwards supporting a lone striker. A favourite of modern positional coaches.",
+    "strengths": ["Overloads in build-up", "Flexible attacking rotations", "Solid rest defence"],
+    "weaknesses": ["Wing-backs stretched", "Complex to master"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LCB", "x": 30, "y": 78 },
+      { "pos": "CB", "x": 50, "y": 80 },
+      { "pos": "RCB", "x": 70, "y": 78 },
+      { "pos": "LWB", "x": 12, "y": 54 },
+      { "pos": "LCM", "x": 38, "y": 56 },
+      { "pos": "RCM", "x": 62, "y": 56 },
+      { "pos": "RWB", "x": 88, "y": 54 },
+      { "pos": "LAM", "x": 32, "y": 34 },
+      { "pos": "RAM", "x": 68, "y": 34 },
+      { "pos": "ST", "x": 50, "y": 14 }
+    ]
+  },
+  {
+    "id": "3-4-3",
+    "name": "3-4-3",
+    "label": "High Press Width",
+    "description": "A back three with a front three pressing high. Four midfielders control the middle, making it ideal for aggressive high-pressing teams.",
+    "strengths": ["High pressing structure", "Front three width", "Midfield control"],
+    "weaknesses": ["Exposed in transition", "Demands fit wing-backs"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LCB", "x": 30, "y": 78 },
+      { "pos": "CB", "x": 50, "y": 80 },
+      { "pos": "RCB", "x": 70, "y": 78 },
+      { "pos": "LWB", "x": 12, "y": 54 },
+      { "pos": "LCM", "x": 38, "y": 56 },
+      { "pos": "RCM", "x": 62, "y": 56 },
+      { "pos": "RWB", "x": 88, "y": 54 },
+      { "pos": "LW", "x": 18, "y": 22 },
+      { "pos": "ST", "x": 50, "y": 14 },
+      { "pos": "RW", "x": 82, "y": 22 }
+    ]
+  },
+  {
+    "id": "5-3-2",
+    "name": "5-3-2",
+    "label": "Defensive Solid",
+    "description": "Five defenders form a deep, compact block with three central midfielders and two forwards. A classic defensive counter-attacking shape.",
+    "strengths": ["Extremely solid", "Difficult to break down", "Quick counters"],
+    "weaknesses": ["Very defensive", "Limited possession"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LWB", "x": 12, "y": 72 },
+      { "pos": "LCB", "x": 32, "y": 80 },
+      { "pos": "CB", "x": 50, "y": 82 },
+      { "pos": "RCB", "x": 68, "y": 80 },
+      { "pos": "RWB", "x": 88, "y": 72 },
+      { "pos": "LCM", "x": 32, "y": 54 },
+      { "pos": "CM", "x": 50, "y": 56 },
+      { "pos": "RCM", "x": 68, "y": 54 },
+      { "pos": "LST", "x": 40, "y": 18 },
+      { "pos": "RST", "x": 60, "y": 18 }
+    ]
+  },
+  {
+    "id": "5-2-3",
+    "name": "5-2-3",
+    "label": "Counter Wingers",
+    "description": "A back five with a front three ready to break at speed. Combines defensive security with rapid wide counter-attacks.",
+    "strengths": ["Solid base", "Fast wide breaks", "Wingers isolate full-backs"],
+    "weaknesses": ["Two-man midfield", "Requires clinical wide players"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LWB", "x": 12, "y": 72 },
+      { "pos": "LCB", "x": 32, "y": 80 },
+      { "pos": "CB", "x": 50, "y": 82 },
+      { "pos": "RCB", "x": 68, "y": 80 },
+      { "pos": "RWB", "x": 88, "y": 72 },
+      { "pos": "LCM", "x": 38, "y": 56 },
+      { "pos": "RCM", "x": 62, "y": 56 },
+      { "pos": "LW", "x": 18, "y": 22 },
+      { "pos": "ST", "x": 50, "y": 16 },
+      { "pos": "RW", "x": 82, "y": 22 }
+    ]
+  },
+  {
+    "id": "4-1-4-1",
+    "name": "4-1-4-1",
+    "label": "Defensive Midfield",
+    "description": "A back four shielded by a single holding midfielder, with a four-man band behind a lone striker. Balanced and hard to break down.",
+    "strengths": ["Protective screen", "Compact banks", "Controlled tempo"],
+    "weaknesses": ["Lone striker isolated", "Requires energetic wide players"],
+    "slots": [
+      { "pos": "GK", "x": 50, "y": 92 },
+      { "pos": "LB", "x": 16, "y": 74 },
+      { "pos": "LCB", "x": 36, "y": 78 },
+      { "pos": "RCB", "x": 64, "y": 78 },
+      { "pos": "RB", "x": 84, "y": 74 },
+      { "pos": "CDM", "x": 50, "y": 63 },
+      { "pos": "LM", "x": 16, "y": 48 },
+      { "pos": "LCM", "x": 38, "y": 50 },
+      { "pos": "RCM", "x": 62, "y": 50 },
+      { "pos": "RM", "x": 84, "y": 48 },
+      { "pos": "ST", "x": 50, "y": 14 }
+    ]
+  }
+]

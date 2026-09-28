@@ -1,0 +1,59 @@
+# TactiFC — Apache configuration
+#
+# Everything here is OPTIONAL. The site works fully without URL rewriting;
+# these rules just add convenience redirects and light security hardening.
+
+# ---------------------------------------------------------------- Defaults
+DirectoryIndex index.php index.html
+
+# ------------------------------------------------------------ UTF-8 default
+AddDefaultCharset UTF-8
+
+# ------------------------------------------------- Remove .php (optional)
+# Allows /TactiFC/tactics to resolve to tactics.php when mod_rewrite is on,
+# while still working normally when it is not.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Do not rewrite real files or directories.
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # /tactics  -> /tactics.php  (only if that file exists)
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^([^.]+)$ $1.php [L]
+</IfModule>
+
+# ------------------------------------------------------------- Security
+# Block direct access to the JSON data directory — it is only ever read by PHP.
+<IfModule mod_rewrite.c>
+    RewriteRule ^data/ - [F,L]
+</IfModule>
+<FilesMatch "\.(json)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Block access to the tools/ generator scripts.
+<IfModule mod_rewrite.c>
+    RewriteRule ^tools/ - [F,L]
+</IfModule>
+
+# ------------------------------------------------------------- Caching
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 7 days"
+    ExpiresByType application/javascript "access plus 7 days"
+    ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>
+
+# ------------------------------------------------------- Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>

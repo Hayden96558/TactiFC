@@ -1,0 +1,426 @@
+[
+  {
+    "id": "jose-mourinho",
+    "name": "José Mourinho",
+    "nationality": "Portugal",
+    "clubs": ["FC Porto", "Chelsea", "Inter Milan", "Real Madrid", "Manchester United", "AS Roma"],
+    "styles": ["Counter Attack", "Low Block", "Compact", "Defensive"],
+    "bio": "Known for meticulous organisation, defensive solidity and ruthless counter-attacking football inspired by his greatest sides."
+  },
+  {
+    "id": "pep-guardiola",
+    "name": "Pep Guardiola",
+    "nationality": "Spain",
+    "clubs": ["FC Barcelona", "Bayern Munich", "Manchester City"],
+    "styles": ["Possession", "High Press", "Attacking", "Positional Play"],
+    "bio": "The defining positional-play coach of the modern era, favouring extreme possession, high pressing and fluid attacking rotations."
+  },
+  {
+    "id": "carlo-ancelotti",
+    "name": "Carlo Ancelotti",
+    "nationality": "Italy",
+    "clubs": ["AC Milan", "Real Madrid", "Chelsea", "Bayern Munich", "Everton"],
+    "styles": ["Balanced", "Possession", "Counter Attack", "Man Management"],
+    "bio": "A master of adaptation who builds balanced, player-led systems and gets the best from elite attacking talent."
+  },
+  {
+    "id": "alex-ferguson",
+    "name": "Sir Alex Ferguson",
+    "nationality": "Scotland",
+    "clubs": ["Aberdeen", "Manchester United"],
+    "styles": ["Attacking", "Direct", "High Press", "Wide Play"],
+    "bio": "Manchester United's legendary manager, famous for fearless attacking football, relentless tempo and a winning mentality inspired by his great sides."
+  },
+  {
+    "id": "jurgen-klopp",
+    "name": "Jürgen Klopp",
+    "nationality": "Germany",
+    "clubs": ["Borussia Dortmund", "Liverpool"],
+    "styles": ["High Press", "Attacking", "Counter Press", "Vertical"],
+    "bio": "The architect of 'heavy metal football' — intense gegenpressing, rapid vertical transitions and relentless energy."
+  },
+  {
+    "id": "arsene-wenger",
+    "name": "Arsène Wenger",
+    "nationality": "France",
+    "clubs": ["AS Monaco", "Arsenal"],
+    "styles": ["Possession", "Attacking", "Technical", "Wide Play"],
+    "bio": "A pioneer of technical, flowing possession football in England, built around quick short passing and intelligent movement."
+  },
+  {
+    "id": "antonio-conte",
+    "name": "Antonio Conte",
+    "nationality": "Italy",
+    "clubs": ["Juventus", "Chelsea", "Inter Milan", "Tottenham Hotspur"],
+    "styles": ["Counter Attack", "Compact", "Wide Play", "Intense"],
+    "bio": "An intensely demanding coach renowned for back-three systems, aggressive wing-backs and disciplined defensive structure."
+  },
+  {
+    "id": "diego-simeone",
+    "name": "Diego Simeone",
+    "nationality": "Argentina",
+    "clubs": ["Atlético Madrid"],
+    "styles": ["Low Block", "Counter Attack", "Defensive", "Compact"],
+    "bio": "The face of modern defensive resilience — a fiercely compact, aggressive block that thrives on transitions and set pieces."
+  },
+  {
+    "id": "zinedine-zidane",
+    "name": "Zinedine Zidane",
+    "nationality": "France",
+    "clubs": ["Real Madrid"],
+    "styles": ["Balanced", "Possession", "Counter Attack", "Attacking"],
+    "bio": "An elegant manager who blended control with devastating transitions, guiding Real Madrid to an era of European dominance."
+  },
+  {
+    "id": "luis-enrique",
+    "name": "Luis Enrique",
+    "nationality": "Spain",
+    "clubs": ["FC Barcelona", "Spain", "Paris Saint-Germain"],
+    "styles": ["Possession", "High Press", "Attacking", "Positional Play"],
+    "bio": "A modern positional coach who emphasises possession, aggressive pressing and versatile, fluid attacking trios."
+  },
+  {
+    "id": "marcelo-bielsa",
+    "name": "Marcelo Bielsa",
+    "nationality": "Argentina",
+    "clubs": ["Athletic Club", "Marseille", "Leeds United", "Argentina", "Chile"],
+    "styles": ["High Press", "Attacking", "Vertical", "Man-Oriented"],
+    "bio": "An obsessive, influential coach famous for man-oriented pressing, relentless intensity and vertical, risk-taking football."
+  },
+  {
+    "id": "mauricio-pochettino",
+    "name": "Mauricio Pochettino",
+    "nationality": "Argentina",
+    "clubs": ["Southampton", "Tottenham Hotspur", "Paris Saint-Germain", "Chelsea"],
+    "styles": ["High Press", "Attacking", "Balanced", "Wide Play"],
+    "bio": "A front-foot coach who built a dynamic, high-pressing Tottenham side around youthful energy and rapid transitions."
+  },
+  {
+    "id": "thomas-tuchel",
+    "name": "Thomas Tuchel",
+    "nationality": "Germany",
+    "clubs": ["Borussia Dortmund", "Paris Saint-Germain", "Chelsea", "Bayern Munich"],
+    "styles": ["High Press", "Compact", "Positional Play", "Defensive"],
+    "bio": "A meticulous tactician known for back-three structures, flexible pressing and a strong emphasis on defensive control."
+  },
+  {
+    "id": "massimiliano-allegri",
+    "name": "Massimiliano Allegri",
+    "nationality": "Italy",
+    "clubs": ["AC Milan", "Juventus"],
+    "styles": ["Balanced", "Counter Attack", "Compact", "Defensive"],
+    "bio": "A pragmatic Italian coach who balances defensive solidity with efficient, opportunistic attacking football."
+  },
+  {
+    "id": "unai-emery",
+    "name": "Unai Emery",
+    "nationality": "Spain",
+    "clubs": ["Sevilla", "Arsenal", "Villarreal", "Aston Villa"],
+    "styles": ["Balanced", "Possession", "Counter Press", "Wide Play"],
+    "bio": "A detail-driven coach renowned for structured build-up, aggressive counter-pressing and set-piece organisation."
+  },
+  {
+    "id": "simone-inzaghi",
+    "name": "Simone Inzaghi",
+    "nationality": "Italy",
+    "clubs": ["Lazio", "Inter Milan"],
+    "styles": ["Counter Attack", "Wide Play", "Compact", "Attacking"],
+    "bio": "A modern Italian coach whose 3-5-2 systems combine aggressive wing-backs with rapid, vertical counter-attacks."
+  },
+  {
+    "id": "xavi-hernandez",
+    "name": "Xavi Hernández",
+    "nationality": "Spain",
+    "clubs": ["Al Sadd", "FC Barcelona"],
+    "styles": ["Possession", "Positional Play", "High Press", "Attacking"],
+    "bio": "A protégé of the positional-play school who emphasises central overloads, structured possession and intricate passing."
+  },
+  {
+    "id": "jose-bordalas",
+    "name": "José Bordalás",
+    "nationality": "Spain",
+    "clubs": ["Getafe", "Valencia"],
+    "styles": ["Low Block", "Defensive", "Compact", "Direct"],
+    "bio": "A coach synonymous with disciplined, aggressive low blocks, duels and direct football from a hard-working side."
+  },
+  {
+    "id": "oliver-glasner",
+    "name": "Oliver Glasner",
+    "nationality": "Austria",
+    "clubs": ["Wolfsburg", "Eintracht Frankfurt", "Crystal Palace"],
+    "styles": ["High Press", "Compact", "Counter Attack", "Wide Play"],
+    "bio": "An Austrian coach who favours a compact back three, aggressive transitions and rapid attacking width."
+  },
+  {
+    "id": "andoni-iraola",
+    "name": "Andoni Iraola",
+    "nationality": "Spain",
+    "clubs": ["Rayo Vallecano", "AFC Bournemouth"],
+    "styles": ["High Press", "Attacking", "Counter Press", "Vertical"],
+    "bio": "A Bielsa-influenced coach known for man-oriented pressing, high tempo and fearless, vertical attacking play."
+  },
+  {
+    "id": "john-herdman",
+    "name": "John Herdman",
+    "nationality": "England",
+    "clubs": ["Canada", "Canada Women", "Toronto FC"],
+    "styles": ["Compact", "Counter Attack", "High Press", "Wide Play"],
+    "bio": "A British-Canadian coach who built a resilient, quick-transitioning Canada men's national team and led them to the 2022 World Cup."
+  },
+  {
+    "id": "shin-tae-yong",
+    "name": "Shin Tae-yong",
+    "nationality": "South Korea",
+    "clubs": ["South Korea", "Indonesia"],
+    "styles": ["High Press", "Counter Attack", "Compact", "Disciplined"],
+    "bio": "A South Korean coach who transformed Indonesia's national team with an aggressive, hard-working, counter-attacking identity."
+  },
+  {
+    "id": "lionel-scaloni",
+    "name": "Lionel Scaloni",
+    "nationality": "Argentina",
+    "clubs": ["Argentina"],
+    "styles": ["Balanced", "Possession", "Attacking", "Adaptable"],
+    "bio": "An adaptable coach who built a balanced, togetherness-driven Argentina side that won the 2022 World Cup."
+  },
+  {
+    "id": "walid-regragui",
+    "name": "Walid Regragui",
+    "nationality": "Morocco",
+    "clubs": ["Morocco", "Wydad AC"],
+    "styles": ["Low Block", "Counter Attack", "Compact", "Defensive"],
+    "bio": "A coach who led Morocco to the 2022 World Cup semi-final with a brilliant, disciplined defensive block and fearless counters."
+  },
+  {
+    "id": "sepp-herberger",
+    "name": "Sepp Herberger",
+    "nationality": "Germany",
+    "clubs": ["West Germany"],
+    "styles": ["Balanced", "Counter Attack", "Disciplined", "Direct"],
+    "bio": "West Germany's 1954 World Cup-winning coach, famous for an adaptable, resilient and highly disciplined side."
+  },
+  {
+    "id": "gusztav-sebes",
+    "name": "Gusztáv Sebes",
+    "nationality": "Hungary",
+    "clubs": ["Hungary"],
+    "styles": ["Attacking", "Positional Play", "Technical", "Possession"],
+    "bio": "Architect of the legendary 'Mighty Magyars' and the pioneering deep-lying centre-forward system of the 1950s."
+  },
+  {
+    "id": "mario-zagallo",
+    "name": "Mário Zagallo",
+    "nationality": "Brazil",
+    "clubs": ["Brazil", "Botafogo"],
+    "styles": ["Attacking", "Technical", "Wide Play", "Balanced"],
+    "bio": "A World Cup winner as player and coach who shaped Brazil's fluid, attacking tradition across several eras."
+  },
+  {
+    "id": "helenio-herrera",
+    "name": "Helenio Herrera",
+    "nationality": "Argentina",
+    "clubs": ["Inter Milan", "Spain"],
+    "styles": ["Defensive", "Counter Attack", "Compact", "Man-Oriented"],
+    "bio": "The obsessive innovator behind catenaccio, famous for defensive discipline and ruthless counter-attacking."
+  },
+  {
+    "id": "rinuus-michels",
+    "name": "Rinus Michels",
+    "nationality": "Netherlands",
+    "clubs": ["Netherlands", "Ajax", "FC Barcelona"],
+    "styles": ["Positional Play", "High Press", "Attacking", "Possession"],
+    "bio": "The father of Total Football, whose Netherlands sides revolutionised positional interchange and pressing."
+  },
+  {
+    "id": "carlos-alberto-parreira",
+    "name": "Carlos Alberto Parreira",
+    "nationality": "Brazil",
+    "clubs": ["Brazil", "South Africa", "Kuwait"],
+    "styles": ["Balanced", "Compact", "Counter Attack", "Disciplined"],
+    "bio": "A pragmatic, well-travelled coach who guided Brazil to the 1994 World Cup with a balanced, organised side."
+  },
+  {
+    "id": "guus-hiddink",
+    "name": "Guus Hiddink",
+    "nationality": "Netherlands",
+    "clubs": ["Netherlands", "South Korea", "Australia", "Russia"],
+    "styles": ["Balanced", "High Press", "Counter Attack", "Flexible"],
+    "bio": "A master tournament coach who took South Korea to the 2002 semi-finals with fearless, high-energy football."
+  },
+  {
+    "id": "luiz-felipe-scolari",
+    "name": "Luiz Felipe Scolari",
+    "nationality": "Brazil",
+    "clubs": ["Brazil", "Portugal"],
+    "styles": ["Balanced", "Compact", "Attacking", "Direct"],
+    "bio": "A fiery motivator who led Brazil to the 2002 World Cup with a balanced, resilient and opportunistic side."
+  },
+  {
+    "id": "joachim-low",
+    "name": "Joachim Löw",
+    "nationality": "Germany",
+    "clubs": ["Germany"],
+    "styles": ["Possession", "High Press", "Attacking", "Positional Play"],
+    "bio": "The coach behind Germany's 2014 World Cup triumph, built on positional play, pressing and technical quality."
+  },
+  {
+    "id": "vicente-del-bosque",
+    "name": "Vicente del Bosque",
+    "nationality": "Spain",
+    "clubs": ["Spain", "Real Madrid"],
+    "styles": ["Possession", "Positional Play", "Balanced", "Technical"],
+    "bio": "The calm manager who guided Spain to the 2010 World Cup and Euro 2012 with tiki-taka dominance."
+  },
+  {
+    "id": "fernando-santos",
+    "name": "Fernando Santos",
+    "nationality": "Portugal",
+    "clubs": ["Portugal", "Greece"],
+    "styles": ["Balanced", "Counter Attack", "Compact", "Defensive"],
+    "bio": "A pragmatic coach who led Portugal to Euro 2016 with a resilient, counter-attacking and disciplined side."
+  },
+  {
+    "id": "didi-deschamps",
+    "name": "Didier Deschamps",
+    "nationality": "France",
+    "clubs": ["France", "AS Monaco", "Juventus"],
+    "styles": ["Balanced", "Counter Attack", "Compact", "Direct"],
+    "bio": "A serial winner who built France around defensive solidity, balance and devastating transitions."
+  },
+  {
+    "id": "oscar-tabarez",
+    "name": "Óscar Tabárez",
+    "nationality": "Uruguay",
+    "clubs": ["Uruguay"],
+    "styles": ["Compact", "Counter Attack", "Defensive", "Disciplined"],
+    "bio": "Uruguay's long-serving coach who rebuilt the national team around a fierce, organised and competitive identity."
+  },
+  {
+    "id": "zlatko-dalic",
+    "name": "Zlatko Dalić",
+    "nationality": "Croatia",
+    "clubs": ["Croatia"],
+    "styles": ["Balanced", "Possession", "Compact", "Resilient"],
+    "bio": "The coach who led Croatia to the 2018 World Cup final with a resilient, technically excellent midfield-driven side."
+  },
+  {
+    "id": "hajime-moriyasu",
+    "name": "Hajime Moriyasu",
+    "nationality": "Japan",
+    "clubs": ["Japan"],
+    "styles": ["High Press", "Counter Attack", "Compact", "Vertical"],
+    "bio": "Japan's coach who built an energetic, high-pressing side that beat Germany and Spain at the 2022 World Cup."
+  },
+  {
+    "id": "herve-renard",
+    "name": "Hervé Renard",
+    "nationality": "France",
+    "clubs": ["Saudi Arabia", "Morocco", "Ivory Coast", "Zambia"],
+    "styles": ["Compact", "Counter Attack", "Defensive", "Resilient"],
+    "bio": "A tournament specialist famed for organising resilient, united teams that punch above their weight."
+  },
+  {
+    "id": "berto-martinez",
+    "name": "Roberto Martínez",
+    "nationality": "Spain",
+    "clubs": ["Belgium", "Portugal", "Everton", "Wigan Athletic"],
+    "styles": ["Possession", "Positional Play", "Attacking", "Build Up"],
+    "bio": "A possession-focused coach who built Belgium's golden generation around structured build-up play."
+  },
+  {
+    "id": "luis-suarez-miramontes",
+    "name": "Luis Suárez Miramontes",
+    "nationality": "Spain",
+    "clubs": ["Spain", "Inter Milan"],
+    "styles": ["Balanced", "Technical", "Counter Attack", "Disciplined"],
+    "bio": "A Ballon d'Or-winning midfielder who later coached Spain with an emphasis on control and technique."
+  },
+  {
+    "id": "bertie-vogts",
+    "name": "Berti Vogts",
+    "nationality": "Germany",
+    "clubs": ["Germany"],
+    "styles": ["Compact", "Defensive", "Counter Attack", "Disciplined"],
+    "bio": "The coach who led a unified Germany to Euro 1996 with an organised, battling and efficient side."
+  },
+  {
+    "id": "carlos-bilardo",
+    "name": "Carlos Bilardo",
+    "nationality": "Argentina",
+    "clubs": ["Argentina", "Sevilla"],
+    "styles": ["Defensive", "Man-Oriented", "Counter Attack", "Pragmatic"],
+    "bio": "The tactically obsessive coach who led Argentina to the 1986 World Cup with man-marking and pragmatism."
+  },
+  {
+    "id": "tele-santana",
+    "name": "Telê Santana",
+    "nationality": "Brazil",
+    "clubs": ["Brazil", "São Paulo"],
+    "styles": ["Attacking", "Technical", "Attacking", "Wide Play"],
+    "bio": "A romantic of Brazilian football whose 1982 side is remembered for beautiful, attack-minded play."
+  },
+  {
+    "id": "zdenek-zeman",
+    "name": "Zdeněk Zeman",
+    "nationality": "Czech Republic",
+    "clubs": ["Czechoslovakia", "Foggia", "Roma"],
+    "styles": ["High Press", "Attacking", "Vertical", "Man-Oriented"],
+    "bio": "A fierce advocate of attacking, high-tempo football whose ideas influenced generations of coaches."
+  },
+  {
+    "id": "otto-rehhagel",
+    "name": "Otto Rehhagel",
+    "nationality": "Germany",
+    "clubs": ["Greece", "Werder Bremen", "Kaiserslautern"],
+    "styles": ["Low Block", "Counter Attack", "Defensive", "Disciplined"],
+    "bio": "The coach behind Greece's astonishing Euro 2004 triumph, built on a brilliant, disciplined low block and set-piece threat."
+  },
+  {
+    "id": "alfred-riedl",
+    "name": "Alfred Riedl",
+    "nationality": "Austria",
+    "clubs": ["Indonesia", "Vietnam", "Thailand", "Austria"],
+    "styles": ["Balanced", "Possession", "Technical", "Disciplined"],
+    "bio": "An Austrian coach and Southeast Asian specialist who had several spells in charge of Indonesia, emphasising organisation and technical play."
+  },
+  {
+    "id": "patrick-kluivert",
+    "name": "Patrick Kluivert",
+    "nationality": "Netherlands",
+    "clubs": ["Indonesia", "Curaçao", "Adana Demirspor"],
+    "styles": ["Possession", "Attacking", "Positional Play", "Build Up"],
+    "bio": "A former Dutch striker turned coach who took charge of Indonesia for the 2026 World Cup qualifying campaign, favouring possession and attacking football."
+  },
+  {
+    "id": "benny-dollo",
+    "name": "Benny Dollo",
+    "nationality": "Indonesia",
+    "clubs": ["Indonesia", "Persija Jakarta"],
+    "styles": ["Balanced", "Counter Attack", "Disciplined", "Compact"],
+    "bio": "A respected Indonesian coach who led the national team and was a long-serving figure in Indonesian football."
+  },
+  {
+    "id": "luis-milla",
+    "name": "Luis Milla",
+    "nationality": "Spain",
+    "clubs": ["Indonesia", "RCD Mallorca"],
+    "styles": ["Possession", "Positional Play", "Attacking", "Build Up"],
+    "bio": "A Spanish coach who brought a possession-based, positional approach to Indonesia during his time in charge."
+  },
+  {
+    "id": "indonesia-legend",
+    "name": "Indonesia Legends XI",
+    "nationality": "Indonesia",
+    "clubs": ["Indonesia"],
+    "styles": ["Attacking", "Technical", "Counter Attack", "Wide Play"],
+    "bio": "A tribute entry representing the traditional strengths of Indonesian football — technical flair, quick wide play and passionate counter-attacking."
+  },
+  {
+    "id": "indra-sjafri",
+    "name": "Indra Sjafri",
+    "nationality": "Indonesia",
+    "clubs": ["Indonesia U-20", "Indonesia U-23", "Indonesia U-19", "Bali United", "Barito Putera"],
+    "styles": ["High Press", "Counter Attack", "Attacking", "Disciplined"],
+    "bio": "One of Indonesia's leading coaches, renowned for his work with the U-19, U-20 and U-23 national teams and for a successful spell at Bali United."
+  }
+]
