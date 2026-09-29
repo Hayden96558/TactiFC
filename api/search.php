@@ -4,8 +4,9 @@
  */
 declare(strict_types=1);
 
-require_once __DIR__ . '/includes/data.php';
-require_once __DIR__ . '/includes/cards.php';
+require_once __DIR__ . '/../includes/data.php';
+require_once __DIR__ . '/../includes/pitch.php';
+require_once __DIR__ . '/../includes/cards.php';
 
 $q = isset($_GET['q']) ? trim((string) $_GET['q']) : '';
 

@@ -4,9 +4,9 @@
  */
 declare(strict_types=1);
 
-require_once __DIR__ . '/includes/data.php';
-require_once __DIR__ . '/includes/pitch.php';
-require_once __DIR__ . '/includes/cards.php';
+require_once __DIR__ . '/../includes/data.php';
+require_once __DIR__ . '/../includes/pitch.php';
+require_once __DIR__ . '/../includes/cards.php';
 
 $PAGE_TITLE = 'TactiFC — FC25, FC26 & FC27 Formations & Tactics';
 $PAGE_DESC  = 'Explore formations, legendary manager tactics, player roles and custom setups for EA Sports FC25, FC26 and FC27. Search by manager, club, season, formation or playstyle.';
